@@ -55,3 +55,31 @@ console.log("decremento: ", num1--);
 
 // Operadores de asignacion:
 
+// El operador de asignacion es el que venimos utilizando
+// Operador (=):
+let variable = undefined;
+console.log("variable indefinida: ", variable);
+
+// Operador de asignacion de suma (+=):
+num1 = 15;
+num2 = 40;
+num1 += num2;
+console.log("asignacion de suma: ", num1);
+
+// Operador de asignacion de resta (-=):
+num1 = 50;
+num2 = 10;
+num1 -= num2;
+console.log("asignacion de resta: ", num1);
+
+// Operador de asignacion de multiplicacion (*=):
+num1 = 5;
+num2 = 10;
+num1 *= num2;
+console.log("asignacion de multiplicacion: ", num1);
+
+// Operador de asignacion de division (/=):
+num1 = 30;
+num2 = 3;
+num1 /= num2;
+console.log("asignacion de division: ", num1);
